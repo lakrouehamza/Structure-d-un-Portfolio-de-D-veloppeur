@@ -7,7 +7,7 @@ header{
     flex-direction:row;
     width: 100%;
     background-color: black;
-    height: 40px;
+    height: 50px;
 }
 header nav{
     margin-left: 15%;
@@ -46,4 +46,69 @@ header nav a{
 }
 .professionnels{
     font-size:3vw;
+}
+section {
+    width: 100%;
+    /* height: 300px; */
+}
+section h1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 2vw;
+}
+section h2{
+    /* margin-top: 3%; */
+    text-align: center;
+    font-size: 2vw;
+}
+.listeProjets{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    /* width: 80%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    border: solid;
+    gap: 50px 50px;
+}
+.elementListeProjets{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    border:solid 1px;
+}
+.elementListeProjets_img{
+grid-column: 2/3;
+grid-row: 1/2;
+background-color:blue;
+border-radius:60px;
+width:100%;
+height: 8vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.elementListeProjets_img img{
+    width: 40%;
+    height: 40%;
+}
+.elementListeProjets_lable{
+grid-column:1/4;
+grid-row:2/3;
+text-align:center;
+}
+.sectionCompetences{
+    
+    width: 100%;
+    height: 300px;
+}
+.listeCompetences{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+    display:flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
 }
