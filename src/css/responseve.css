@@ -1,5 +1,8 @@
 @media screen  and (max-width : 786px){
-
+*{
+    margin :0px;
+    padding:0px;
+}
     header nav{
        position: absolute;
        top: 35px;
@@ -8,6 +11,7 @@
        flex-direction: column ;
        background-color: black;
        width: auto;
+       display: none;
     }
     header nav a{
         text-decoration: none;
